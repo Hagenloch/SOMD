@@ -3,7 +3,7 @@ import java.awt.event.*;
 import java.awt.*;
 import java.awt.image.ImageObserver;
 import java.text.AttributedCharacterIterator;
-
+//Klassenbeschreibung: Oberfläche wird erstellt
 public class GUI extends Frame{
     private String s1= "",s2="";
     private TextField f1;
