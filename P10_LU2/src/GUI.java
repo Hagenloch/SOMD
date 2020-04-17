@@ -71,16 +71,16 @@ public class GUI extends Frame{
                 f1.setEnabled(false);
                 f2.setEnabled(false);
 
-                username2 =f1.getText();
-                password2 = f2.getText();
+                username =f1.getText();
+                password = f2.getText();
 
                 success=false;
                 for(int index=0; index<userL.size(); index++)
                 {
-                    String user = userL.get(index).getUserName();
-                    String passi = userL.get(index).getPassword();
+                    String registered_user = userL.get(index).getUserName();
+                    String resgistered_password = userL.get(index).getPassword();
 
-                    if(username2.equals(user) && password2.equals(passi))
+                    if(username.equals(registered_user) && password.equals(registered_password))
                     {
                         success= true;
                         break;
